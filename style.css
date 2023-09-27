@@ -1,0 +1,94 @@
+body {
+  padding: 50px;
+}
+
+/* #graph .labels.x-labels {
+  text-anchor: middle;
+}
+
+#graph .labels.y-labels {
+  text-anchor: end;
+} */
+
+#graph {
+  height: 100%;
+  width: 100%;
+  /* overflow: visible; */
+}
+
+#graph .grid {
+  stroke: #ccc;
+}
+
+.labels {
+  font-size: 13px;
+}
+
+.label-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  fill: black;
+}
+
+.data {
+  fill: red;
+  stroke-width: 1; 
+}
+
+.svg_penis:hover .egg,
+.svg_penis:hover .smile,
+.svg_penis:hover .penis {
+  stroke-dashoffset: 0;
+}
+
+.egg {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+}
+
+.penis {
+  transition: all 2s ease-in 1s;
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+}
+
+.egg {
+  transition: all 1s ease-in-out;
+}
+
+.smile {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+}
+
+.svg_penis:hover .eye {
+  opacity: 1;
+}
+
+.eye {
+  opacity: 0;
+}
+
+.eye, .smile {
+  transition: all 1s ease-in 3s;
+}
+
+.svg_penis {
+  border: 1px solid #000;
+  stroke-width: 10px;
+}
+
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-gap: 10px;
+}
+
+.svg {
+  width: 400px;
+  height: 270px;
+  border: 1px solid #000;
+}
